@@ -16,3 +16,9 @@ a:link{
 a:visited{
     color:  lightseagreen;
 }
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: crosshair;
+}
