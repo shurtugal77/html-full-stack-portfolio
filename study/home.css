@@ -8,8 +8,22 @@ nav.site-nav-bar{
 }
 
 nav.content-nav-bar{
+    position: sticky;
+    top: 0;
     background-color: lightblue;
     padding: 5px;
+}
+
+h2 {
+    padding-top: 25px;
+    margin: 0 0 15px 0;
+}
+
+.sticky-bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: orange;
+    height: 20px;
 }
 
 ul {
