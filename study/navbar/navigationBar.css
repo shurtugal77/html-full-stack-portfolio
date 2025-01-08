@@ -8,7 +8,7 @@
 } */
 
 /* Pseudo class */
-a:link{
+/* a:link{
     color: darkgreen;
     text-decoration: none;
 }
@@ -20,5 +20,11 @@ a:visited{
 a:hover {
     color: cornflowerblue;
     text-decoration: underline;
-    cursor: crosshair;
+    cursor: grab;
+} */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
