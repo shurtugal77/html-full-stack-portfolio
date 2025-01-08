@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+nav.site-nav-bar{
+    background-color: dodgerblue;
+    padding: 15px;
+}
+
+nav.content-nav-bar{
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+h2 {
+    padding-top: 25px;
+    margin: 0 0 15px 0;
+}
+
+.sticky-bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: orange;
+    height: 20px;
+}
+
+ul {
+    display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-auto-flow: column;
+}
+
+ul li {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
