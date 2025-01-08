@@ -1,32 +1,23 @@
-* {
+body {
     scroll-behavior: smooth;
     margin: 0;
 }
 
-/* Pseudo selector */
-/* a:nth-of-type(2){
-    font-size: 39px;
-} */
-
-/* Pseudo class */
-/* a:link{
-    color: darkgreen;
-    text-decoration: none;
-}
-
-a:visited{
-    color:  lightseagreen;
-}
-
-a:hover {
-    color: cornflowerblue;
-    text-decoration: underline;
-    cursor: grab;
-} */
-
-nav {
+nav.site-nav-bar {
     background-color: dodgerblue;
     padding: 15px;
+}
+
+nav.content-nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: lightskyblue;
+    padding: 15px;
+}
+
+h2 {
+    padding-top: 60px;
+    margin: 0 0 15px 0;
 }
 
 ul {
