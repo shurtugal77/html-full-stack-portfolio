@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 /* Pseudo selector */
@@ -23,8 +24,28 @@ a:hover {
     cursor: grab;
 } */
 
+nav {
+    background-color: dodgerblue;
+    padding: 15px;
+}
+
 ul {
+    display: grid;
     list-style: none;
     margin: 0;
     padding: 0;
+    grid-auto-flow: column;
+}
+
+ul li {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
 }
