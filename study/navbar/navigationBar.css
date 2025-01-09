@@ -32,7 +32,7 @@ footer.sticky-bottom {
 
 .back-to-top{
     position: fixed;
-    background-color: dimgray;
+    background-color: rgba(105, 105, 105, 0.486);
     border: 1px solid black;
     left: 15px;
     padding: 2px;
