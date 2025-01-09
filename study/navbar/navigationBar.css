@@ -1,8 +1,15 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     scroll-behavior: smooth;
     margin: 0;
 }
 
+main {
+    padding: 10px;
+}
 nav.site-nav-bar {
     background-color: dodgerblue;
     padding: 15px;
@@ -13,6 +20,24 @@ nav.content-nav-bar {
     top: 0;
     background-color: lightskyblue;
     padding: 15px;
+}
+
+footer.sticky-bottom {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    height: 20px;
+    background-color: lightcoral;
+}
+
+.back-to-top{
+    position: fixed;
+    background-color: dimgray;
+    border: 1px solid black;
+    left: 15px;
+    padding: 2px;
+    margin: 0;
+    bottom: 30px;
 }
 
 h2 {
