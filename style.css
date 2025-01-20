@@ -1,0 +1,12 @@
+/* Modern Reset */
+
+/* Remove default margin */
+
+
+/* Set core body defaults */
+body{
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Typography */
