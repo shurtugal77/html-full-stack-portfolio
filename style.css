@@ -1,7 +1,14 @@
 /* Modern Reset */
 
 /* Remove default margin */
-
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
 
 /* Set core body defaults */
 body{
