@@ -102,12 +102,18 @@ main {
 }
 
 section {
-    padding: 0 25% 0;
+    padding: 20px 25% 20px;
 }
 
 .hiring {
+    
     grid-area: hiring;
     background-color: rgba(5, 123, 153, 0.795);
+    font-size: large;
+}
+
+.hiring > h1 {
+    font-size: 100px;
 }
 
 .about-me {
