@@ -11,12 +11,22 @@ p {
 }
 
 /* Set core body defaults */
-body{
+body {
     min-height: 100vh;
     line-height: 1.5;
 }
 
 /* Typography */
+body {
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+/* Body Background */
+body {
+    background-color: rgb(1, 30, 68);
+}
+
 
 /* Navigation */
 .main-header {
@@ -24,6 +34,11 @@ body{
     grid-template-areas:
     "name . nav";
     grid-template-columns: .5fr .8fr 1fr;
+
+    align-items: center;
+
+    margin-top: 10px;
+    background-color: rgba(5, 123, 153, 0.795);
 }
 
 .fullName{
@@ -34,32 +49,81 @@ body{
     grid-area: nav;
 }
 
+.site-nav-bar > ul {
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.site-nav-bar > ul li {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-nav-bar > ul li a {
+    color: white;
+}
+
+
+.button1{
+    padding: 17px 40px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.button1:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93, 24, 220) 0 7px 29px 0;
+}
 
 /* Main */
 main {
     display: grid;
     grid-template-areas: 
-    ". hiring ."
-    ". about-me ."
-    ". portfolio ."
-    ". experience .";
-    grid-template-columns: .4fr 1fr .4fr;
+    "hiring"
+    "about-me"
+    "portfolio"
+    "experience";
+    grid-template-columns:1fr;
+    
+}
+
+section {
+    padding: 0 25% 0;
 }
 
 .hiring {
     grid-area: hiring;
+    background-color: rgba(5, 123, 153, 0.795);
 }
 
 .about-me {
     grid-area: about-me;
+    background-color: rgba(255, 255, 255, 0.795);
+
 }
 
 .portfolio {
     grid-area: portfolio;
+    background-color: rgba(231, 170, 145, 0.795);
 }
 
 .experience {
     grid-area: experience;
+    background-color: rgba(255, 255, 255, 0.795);
 }
 
 /* Footer */
