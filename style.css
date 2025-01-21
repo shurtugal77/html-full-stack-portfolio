@@ -1,5 +1,10 @@
 /* Modern Reset */
 
+/* Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -22,7 +27,7 @@ body {
     color: whitesmoke;
 }
 
-/* Body Background */
+/* Body Overall Settings */
 body {
     background-color: rgb(1, 30, 68);
 }
@@ -38,15 +43,21 @@ body {
     align-items: center;
 
     margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     background-color: rgba(5, 123, 153, 0.795);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .fullName{
     grid-area: name;
+    padding-left: 15px;
+    font-size: 25px;
 }
 
 .site-nav-bar{
     grid-area: nav;
+    padding-right: 15px;
 }
 
 .site-nav-bar > ul {
@@ -56,8 +67,8 @@ body {
     margin: 0;
     padding: 0;
     gap: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .site-nav-bar > ul li {
@@ -66,27 +77,25 @@ body {
 }
 
 .site-nav-bar > ul li a {
-    color: white;
+    color: rgba(5, 123, 153, 0.795);
+    text-decoration: none;
+    vertical-align: -1px;
 }
 
 
-.button1{
-    padding: 17px 40px;
-    border: 0;
-    border-radius: 50px;
+.button{
+    padding: 10px 10px;
+    border-radius: 15px;
     cursor: pointer;
     background-color: white;
     box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
-    font-size: 15px;
+    letter-spacing: 1.1px;
     transition: all 0.5s ease;
 }
 
-.button1:hover {
+.button:hover {
     letter-spacing: 3px;
-    background-color: hsl(261deg, 80%, 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93, 24, 220) 0 7px 29px 0;
+    box-shadow: rgb(214, 205, 230) 0 5px 20px 5px;
 }
 
 /* Main */
