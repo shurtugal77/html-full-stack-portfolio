@@ -19,7 +19,47 @@ body{
 /* Typography */
 
 /* Navigation */
+.main-header {
+    display: grid;
+    grid-template-areas:
+    "name . nav";
+    grid-template-columns: .5fr .8fr 1fr;
+}
+
+.fullName{
+    grid-area: name;
+}
+
+.site-nav-bar{
+    grid-area: nav;
+}
+
 
 /* Main */
+main {
+    display: grid;
+    grid-template-areas: 
+    ". hiring ."
+    ". about-me ."
+    ". portfolio ."
+    ". experience .";
+    grid-template-columns: .4fr 1fr .4fr;
+}
+
+.hiring {
+    grid-area: hiring;
+}
+
+.about-me {
+    grid-area: about-me;
+}
+
+.portfolio {
+    grid-area: portfolio;
+}
+
+.experience {
+    grid-area: experience;
+}
 
 /* Footer */
