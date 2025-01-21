@@ -141,8 +141,23 @@ section {
 
 .about-me {
     grid-area: about-me;
-    background-color: rgba(255, 255, 255, 0.795);
+    background-color: white;
+    color: rgba(12, 11, 22, 0.856);
+}
 
+.about-me > h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-me h4 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.about-me p {
+    line-height: 150%;
+    font-size: 20px;
 }
 
 .portfolio {
