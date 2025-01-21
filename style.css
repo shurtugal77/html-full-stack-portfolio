@@ -117,11 +117,26 @@ section {
 .hiring {
     grid-area: hiring;
     background-color: rgba(5, 123, 153, 0.795);
-    font-size: large;
+    font-size: 30px;
 }
 
 .hiring > h1 {
     font-size: 125px;
+}
+
+.text-highlight {
+    color: rgb(4, 4, 43);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-underline {
+    font-style: italic;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: rgb(4, 4, 43);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
 }
 
 .about-me {
