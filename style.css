@@ -140,10 +140,17 @@ section {
     text-underline-offset: 2px;
 }
 
+section:not(:first-child) {
+    color: rgba(12, 11, 22, 0.856);
+}
+
+section:not(:first-child) > h1 {
+    padding: 0 0 30px 0;
+}
+
 .about-me {
     grid-area: about-me;
     background-color: white;
-    color: rgba(12, 11, 22, 0.856);
 }
 
 h1 {
@@ -164,7 +171,6 @@ h1 {
 .tech-skills {
     display: grid;
     grid-auto-flow: column;
-    ;
 }
 
 .tech-skills ul{
@@ -179,6 +185,20 @@ h1 {
 .portfolio {
     grid-area: portfolio;
     background-color: rgba(231, 170, 145, 0.795);
+    padding: 100px 5% 100px;
+}
+
+.portfolio-card {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.portfolio-card > div {
+    border: 10px solid rgba(170, 7, 56, 0.911);
+    border-radius: 15px;
+    box-shadow: rgba(170, 7, 56, 0.281) 0 10px 30px 10px;
+    padding: 35px;
 }
 
 .experience {
