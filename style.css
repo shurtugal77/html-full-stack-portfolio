@@ -224,7 +224,8 @@ h1 {
 .portfolio-card > div > a {
     display: block;
     text-align: center;
-    
+    color: rgba(170, 7, 56, 0.911);
+    font-weight: 600;
 }
 
 .experience {
