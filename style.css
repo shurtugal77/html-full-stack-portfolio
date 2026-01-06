@@ -215,6 +215,19 @@ h4 {
     font-weight: 600;
 }
 
+.button-read-more > a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.button-read-more > a:hover {
+    text-decoration: underline;
+}
+
+.button-read-more > a:visited {
+    color: rgba(180, 169, 169, 0.829);
+}
+
 .portfolio-card > div > a {
     display: block;
     text-align: center;
