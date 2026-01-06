@@ -146,7 +146,7 @@ section {
     color: rgba(12, 11, 22, 0.856);
 }
 
-.about-me > h1 {
+h1 {
     font-size: 50px;
     text-align: center;
 }
