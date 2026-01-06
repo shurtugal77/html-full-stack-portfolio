@@ -54,7 +54,6 @@ body {
 .site-nav-bar{
     grid-area: nav;
     padding-right: 15px;
-    
 }
 
 .site-nav-bar > ul {
@@ -114,15 +113,34 @@ section {
     background-color: rgba(5, 123, 153, 0.795);
     font-size: 30px;
 }
+/* Responsive text */
+@media screen and (max-width: 1200px) {
+    .hiring {
+        font-size: 18px;
+    }
+}
 
 .hiring > h1 {
     font-size: 125px;
+}
+/* Responsive Title */
+@media screen and (max-width: 1200px) {
+    .hiring > h1 {
+        font-size: 75px;
+    }
 }
 
 .text-highlight {
     color: rgb(4, 4, 43);
     font-size: 35px;
     font-weight: bold;
+}
+
+/* Responsive Text Highlight */
+@media screen and (max-width: 1200px) {
+    .text-highlight {
+        font-size: 21px;
+    }
 }
 
 .text-underline {
