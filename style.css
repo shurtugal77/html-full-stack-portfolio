@@ -197,7 +197,8 @@ h1 {
 .portfolio-card > div {
     border: 10px solid rgba(170, 7, 56, 0.911);
     border-radius: 15px;
-    box-shadow: rgba(170, 7, 56, 0.281) 0 10px 30px 10px;
+    box-shadow: rgba(170, 7, 56, 0.61) 0px 0px 50px;
+    background-color: white;
     padding: 35px;
 }
 
