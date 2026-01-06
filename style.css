@@ -32,17 +32,13 @@ body {
     background-color: rgba(1, 30, 68, 0.87);
 }
 
-
 /* Navigation */
 .main-header {
     display: grid;
     grid-template-areas:
     "name nav";
     grid-template-columns: 1fr auto;
-
     align-items: center;
-
-    margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: rgba(5, 123, 153, 0.795);
@@ -82,7 +78,6 @@ body {
     text-decoration: none;
 }
 
-
 .button{
     padding: 15px 10px;
     border-radius: 15px;
@@ -107,7 +102,6 @@ main {
     "portfolio"
     "experience";
     grid-template-columns:1fr;
-    
 }
 
 section {
@@ -240,13 +234,5 @@ h4 {
 
 /* Footer */
 .footer {
-    margin: 25px 0 25px 0;
+    margin: 25px 0 25px 35px;
 }
-
-/* padding: 15px 10px;
-    border-radius: 15px;
-    cursor: pointer;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.1px;
-    transition: all 0.3s ease; */
