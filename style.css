@@ -188,6 +188,14 @@ h4 {
     gap: 20px;
 }
 
+/* Responsive Portfolio Section */
+@media screen and (max-width: 1000px) {
+    .portfolio-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
 .portfolio-card > div {
     border: 10px solid rgba(170, 7, 56, 0.911);
     border-radius: 15px;
