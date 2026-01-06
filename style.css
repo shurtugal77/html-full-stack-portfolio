@@ -112,6 +112,7 @@ main {
 
 section {
     padding: 100px 25% 100px;
+    margin-bottom: 10px;
 }
 
 .hiring {
@@ -160,6 +161,21 @@ section {
     font-size: 20px;
 }
 
+.tech-skills {
+    display: grid;
+    grid-auto-flow: column;
+    ;
+}
+
+.tech-skills ul{
+    justify-items: left;
+    padding-left: 25%;
+}
+
+.tech-skills ul li {
+    font-weight: 600;
+}
+
 .portfolio {
     grid-area: portfolio;
     background-color: rgba(231, 170, 145, 0.795);
@@ -168,6 +184,10 @@ section {
 .experience {
     grid-area: experience;
     background-color: rgba(255, 255, 255, 0.795);
+    margin-bottom: 0px;
 }
 
 /* Footer */
+.footer {
+    margin: 25px 0 25px 0;
+}
