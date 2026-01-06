@@ -66,6 +66,14 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+/* Responsive navbar */
+@media screen and (max-width: 900px) {
+    .site-nav-bar > ul {
+        grid-auto-flow: row;
+        gap: 35px;
+        padding: 25px 0 25px 0;
+    }
+}
 
 .site-nav-bar > ul li {
     text-align: center;
