@@ -202,6 +202,31 @@ h1 {
     padding: 35px;
 }
 
+.portfolio-card > div > h2 {
+    font-size: 35px;
+}
+
+.portfolio-card > div > p {
+    font-size: 20px;
+}
+
+.button-read-more {
+    background-color: rgba(170, 7, 56, 0.911);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+.portfolio-card > div > a {
+    display: block;
+    text-align: center;
+    
+}
+
 .experience {
     grid-area: experience;
     background-color: rgba(255, 255, 255, 0.795);
@@ -212,3 +237,11 @@ h1 {
 .footer {
     margin: 25px 0 25px 0;
 }
+
+/* padding: 15px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.1px;
+    transition: all 0.3s ease; */
